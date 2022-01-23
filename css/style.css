@@ -219,3 +219,22 @@ form .form-control {
 .accordion-button:not(.collapsed)::after {
   filter: invert(60%);
 }
+/* footer style start */
+footer {
+  background: #0b0d17;
+}
+footer .copyText {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+.footer-appLink {
+}
+.f-content p {
+  color: #fff;
+  margin-bottom: 0;
+}
+.f-content img {
+  margin-top: 15px;
+  display: block;
+}
