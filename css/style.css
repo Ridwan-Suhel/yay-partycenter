@@ -17,6 +17,17 @@ body {
   background: #3f87f5;
   color: #fff;
 }
+.title {
+  color: #0a0826;
+  font-weight: 600;
+  font-size: 38px;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  list-style-type: none;
+}
 /* header area style start */
 .navbar-brand {
   font-weight: 800;
@@ -50,4 +61,126 @@ body {
 .pr-moment-area p {
   color: #6c6c6c;
   font-weight: 600;
+}
+/* package area start */
+.package-area {
+}
+.package-area .title {
+  margin-bottom: 70px;
+}
+/* single package/single card */
+.single-package {
+  padding: 35px 15px 20px 15px;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+.single-package h3 {
+  color: #231d4f;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.single-package h4 {
+  color: #231d4f;
+  font-size: 27px;
+}
+.single-package p {
+  color: #848199;
+}
+.single-package ul {
+}
+.single-package ul li {
+  color: #848199;
+  margin-top: 15px;
+}
+.single-package ul li i {
+  color: #5243c2;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  background: #edecf9;
+  margin-right: 10px;
+}
+.single-package .pill-btn {
+  background: #fef5fa;
+  padding: 10px 25px;
+  border-radius: 25px;
+  color: #3f87f5;
+  width: 100%;
+  font-weight: 600;
+}
+/* active/hot package */
+.single-package.active {
+  background: #3f87f5;
+  box-shadow: 0px 13px 18px 6px #3f87f533;
+  transform: scale(1.05);
+  margin-top: -30px;
+}
+.single-package.active h3,
+.single-package.active h4,
+.single-package.active p,
+.single-package.active li,
+.single-package.active li i {
+  color: #fff;
+}
+.single-package.active li i {
+  background: #5293f6;
+}
+.single-package.active a {
+  color: #3f87f5;
+  background: #fff;
+}
+/* package hover */
+.single-package:hover {
+  background: #3f87f5;
+  box-shadow: 0px 13px 18px 6px #3f87f533;
+  transform: scale(1.05);
+  margin-top: -30px;
+}
+.single-package:hover h3,
+.single-package:hover h4,
+.single-package:hover p,
+.single-package:hover li,
+.single-package:hover li i {
+  color: #fff;
+}
+.single-package:hover li i {
+  background: #5293f6;
+}
+.single-package:hover a {
+  color: #3f87f5;
+  background: #fff;
+}
+/* package badge */
+.single-package .badge {
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  background: #ff4e4e;
+  font-weight: 600;
+  color: #fff;
+  padding: 12px 28px;
+  font-size: 16px;
+}
+/* form area start */
+form {
+}
+form .form-control {
+  height: calc(3.5rem + 2px);
+}
+.submit-btn {
+  background: #3f87f5;
+  color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  margin-top: 20px;
+}
+.submit-btn :hover {
+  background: #5293f6;
 }
