@@ -2,7 +2,21 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
+/* global style start  */
+.site-secondary-clr {
+  color: #3f87f5;
+}
+.site-secondary-bg {
+  background: #3f87f5;
+}
+.btn.site-btn {
+  background: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.btn.site-btn:hover {
+  background: #3f87f5;
+  color: #fff;
+}
 /* header area style start */
 .navbar-brand {
   font-weight: 800;
@@ -14,4 +28,8 @@ body {
 .navbar-nav .nav-item .nav-link {
   color: #3e3e3e;
   font-weight: 500;
+}
+/* hero/carousel area style */
+.hero-area .lead {
+  font-size: 16px;
 }
