@@ -184,3 +184,38 @@ form .form-control {
 .submit-btn :hover {
   background: #5293f6;
 }
+/* Faq area / accordion area  */
+.accordion-button {
+  font-size: 1.1rem;
+  color: #383838;
+}
+.accordion-item {
+  margin-bottom: 20px;
+  border: 1px solid #d5e5fb;
+  border-radius: 5px;
+}
+#headingOne {
+  border-top: none;
+}
+.accordion-header {
+  border-top: 1px solid #d5e5fb;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.accordion-button {
+  border-radius: 5px !important;
+}
+.accordion-button:not(.collapsed) {
+  color: #383838;
+  background-color: #ffffff;
+  box-shadow: none;
+}
+.accordion-body {
+  color: #7e848c;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed)::after {
+  filter: invert(60%);
+}
