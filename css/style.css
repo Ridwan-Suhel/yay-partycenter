@@ -33,3 +33,21 @@ body {
 .hero-area .lead {
   font-size: 16px;
 }
+/* precious area start */
+.explore-btn {
+  background: #3f87f5;
+}
+.explore-btn:hover {
+  background: #3278e2;
+}
+.explore-btn i {
+  transition: all 0.3s linear;
+  margin-left: 10px;
+}
+.explore-btn:hover i {
+  padding-left: 10px;
+}
+.pr-moment-area p {
+  color: #6c6c6c;
+  font-weight: 600;
+}
