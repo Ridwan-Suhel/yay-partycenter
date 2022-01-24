@@ -243,11 +243,11 @@ footer .copyText {
 /* toast style */
 .toast {
   position: absolute;
-  top: 90%;
+  top: 120%;
   right: 0px;
   display: block;
   width: 300px;
-  box-shadow: 0px 14px 14px 3px #08080863;
+  box-shadow: 0px 14px 14px 3px #2b2b2b24;
   z-index: 9999;
 }
 .toast-header {
