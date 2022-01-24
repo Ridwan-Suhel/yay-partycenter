@@ -113,6 +113,10 @@ li {
   color: #3f87f5;
   width: 100%;
   font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.single-package .pill-btn:hover {
+  opacity: 0.9;
 }
 /* active/hot package */
 .single-package.active {
