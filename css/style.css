@@ -263,6 +263,21 @@ footer .copyText {
 }
 /* responsive styles */
 @media (max-width: 992px) {
+  .precious-content {
+    text-align: center;
+  }
+  .pr-moment-area .row {
+    flex-direction: column-reverse;
+  }
+  section.pr-moment-area {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  section.pr-moment-area img {
+    margin-top: 50px;
+    width: 100%;
+  }
   .single-package {
     height: 456px;
   }
@@ -276,6 +291,9 @@ footer .copyText {
   .single-package.active:hover {
     transform: scale(1.05);
   }
+  div#accordionExample {
+    margin-top: 50px;
+  }
   .faq-area .row {
     flex-direction: column-reverse;
   }
@@ -288,15 +306,8 @@ footer .copyText {
     height: 500px;
     object-fit: cover;
   }
-  section.pr-moment-area {
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
-  }
-  .pr-moment-area .row {
-    flex-direction: column-reverse;
-  }
-  section.pr-moment-area img {
-    margin-top: 50px;
+  .package-area .title {
+    margin-bottom: 20px;
   }
   .single-package:hover {
     transform: scale(1.03);
