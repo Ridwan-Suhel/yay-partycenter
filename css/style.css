@@ -45,6 +45,13 @@ li {
   font-size: 16px;
 }
 /* precious area start */
+/* section.pr-moment-area {
+  position: relative;
+} */
+.pr-moment-area p {
+  color: #6c6c6c;
+  font-weight: 600;
+}
 .explore-btn {
   background: #3f87f5;
 }
@@ -58,13 +65,8 @@ li {
 .explore-btn:hover i {
   padding-left: 10px;
 }
-.pr-moment-area p {
-  color: #6c6c6c;
-  font-weight: 600;
-}
+
 /* package area start */
-.package-area {
-}
 .package-area .title {
   margin-bottom: 70px;
 }
@@ -237,4 +239,97 @@ footer .copyText {
 .f-content img {
   margin-top: 15px;
   display: block;
+}
+/* toast style */
+.toast {
+  position: absolute;
+  top: 70%;
+  right: 0px;
+  display: block;
+  width: 300px;
+  box-shadow: 0px 14px 14px 3px #08080863;
+  z-index: 9999;
+}
+.toast-header {
+  border-left: 7px solid #3f87f5;
+}
+.toast-header span {
+  font-size: 16px;
+}
+.btn-close {
+  width: 6px;
+  height: 6px;
+  margin-top: -10px;
+}
+/* responsive styles */
+@media (max-width: 992px) {
+  .single-package {
+    height: 456px;
+  }
+  .single-package.active {
+    margin-top: 0px;
+    transform: scale(1);
+  }
+  .single-package:hover {
+    margin-top: 0px;
+  }
+  .single-package.active:hover {
+    transform: scale(1.05);
+  }
+  .faq-area .row {
+    flex-direction: column-reverse;
+  }
+  .faq-area img.img-fluid {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+  }
+  section.pr-moment-area {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .pr-moment-area .row {
+    flex-direction: column-reverse;
+  }
+  section.pr-moment-area img {
+    margin-top: 50px;
+  }
+  .single-package:hover {
+    transform: scale(1.03);
+  }
+  input#date {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-caption {
+    right: 2%;
+    left: 2%;
+  }
+  .carousel-item h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .carousel-item p {
+    font-size: 16px;
+  }
+  .align-items-center {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  footer .copyText {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 22px;
+  }
 }
