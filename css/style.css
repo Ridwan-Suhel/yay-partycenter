@@ -243,7 +243,7 @@ footer .copyText {
 /* toast style */
 .toast {
   position: absolute;
-  top: 70%;
+  top: 90%;
   right: 0px;
   display: block;
   width: 300px;
